@@ -35,13 +35,15 @@
 .qtitle{
     font-size: 80px;
     font-weight: bold;
+    color: rgba(78, 71, 255, 1);
 
 }
 .qp{
     font-size: 20px;
     font-weight: 400px;
-    color: #000000;
+    color: rgba(0, 0, 0, 0.5);
 }
+
 /* heading styles */
 .header{
     display: flex;
@@ -64,10 +66,15 @@ header section{
     height: 700px;
 }
 /* section 2 */
+.section2{
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
 .div3{
     display: flex;
     gap: 220px;
     align-items: center;
+    padding: ;
 }
 .img2{
     width: 400px;
@@ -84,14 +91,12 @@ header section{
     color: #252432;
     padding-top: 23px;
     padding-bottom: 23px;
+    color: rgba(37, 36, 50, 0.5);
 }
-.section2{
-    margin: 115px 160px 115px 140px;
-}
+
 .title-descrip-btn{
-    padding-left: 0px;
-    padding-bottom: 220px;
-    padding-top: 220px;
+    width: 520px;
+    height: 200px;
 }
 /* section3 thousand of productive users */
 .titlePU{
@@ -99,5 +104,61 @@ header section{
     font-weight: bold;
 }
 .productive-users{
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 25px;
+   
+}
+.quantity-of-productive-users{
+    display: flex;
+    gap: 158px;
+    
+}
+.divPU{
+    padding: 50px 140px;
+}
+
+
+main {
+    max-width: 1140px;
     margin: 0px auto;
 }
+/* section4 what our users say */
+.sec4title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+}
+.users-reviews{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+     
+}
+.users-review{
+    
+}
+.iconimg{
+    color: #FFB805;
+    width: 20px;
+    height: 20px;
+}
+.id{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.review-title{
+    font-size: 20px;
+}
+.p-review{
+    color: rgba(30, 30, 30, 1);
+    padding-top: 8px;     
+    padding-bottom: 24px;
+}
+.sec4{
+    padding-top: 135px;
+}
+.star-img{
+    display: flex;
+}
+/* section5 Ready to focus better */
