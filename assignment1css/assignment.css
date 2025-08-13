@@ -74,7 +74,7 @@ header section{
     display: flex;
     gap: 220px;
     align-items: center;
-    padding: ;
+    
 }
 .img2{
     width: 400px;
@@ -186,36 +186,46 @@ main {
     margin-top: 20px;
 }
 /* sec6 */
-.sec6title{
-    font-size: 98px;
-    font-weight: bold;
-    width: 530px;
-    height: 230px;
-    text-align: left;
-}
-.sec6{
+.section6{
     display: flex;
-    align-items: center;
-    
-    margin: 90px auto;
-    width: 1140px;
-
-}
-
-.columns{
-    display: flex;
-    gap: 115px;
     justify-content: space-between;
+    margin-top: 90px;
 }
-.sec6 p{
-    margin-bottom: 10px;
+.sec6title{
+    font-size: 95px;
+    font-weight: bold;
+    width: 525px;
+    height: 230px;
+    position: left center;
+}
+.form6{
+    width: 500px;
+    height: 490px;
+    }
+    .forme{
+        padding-bottom: 3px;
+    }
+.formmd{
+    width: 500px;
+    height: 70px;
 }
 /* footer */
-.endings2{
+.footlast{
     display: flex;
-    gap: 15px;
-    text-align: center;
+    gap: 50px;
+    color: rgba(137, 135, 161, 1);
+    justify-content: center;
 }
-.footer1{
+.foot{
     text-align: center;
+    
+    justify-content: center;
+
+}
+.footlogo{
+    font-size: 100px;
+    margin: 0px;
+}
+.footp{
+    color: rgba(135, 141, 161, 1);
 }
