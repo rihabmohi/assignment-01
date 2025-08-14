@@ -208,6 +208,7 @@ main {
 .formmd{
     width: 500px;
     height: 70px;
+    border-radius: 10px;
 }
 /* footer */
 .footlast{
